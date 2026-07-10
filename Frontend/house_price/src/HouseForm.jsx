@@ -24,7 +24,7 @@ const HouseForm = ({ setPrediction }) => {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/predict",
+        "https://california-house-price-predictor-56lk.onrender.com/predict",
         formData
       );
 
